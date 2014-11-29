@@ -28,3 +28,10 @@ To sort them and eliminate duplicates:
 
 To discard known English words:
 ./eliminate-common-nouns nouns.txt
+
+Acknowledgment
+--------------
+
+Thank you to Rama for NLTK suggestion and some brief guidance.
+
+The original code idea is from Alvations, and could be seen at http://stackoverflow.com/a/17672491/1930997.
