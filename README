@@ -1,0 +1,20 @@
+This script allows to extract propert nouns from an English text with NTLK.
+
+Install dependencies
+--------------------
+* Install NTLK according your OS (pkg install ntlk on FreeBSD for example)
+* Install numpy (pkg install py27-numpy)
+* Download the needed NLTK resources with ntlk.download():
+** maxent_treebank_pos_tagger
+** punkt
+
+Source text
+-----------
+You need a copy of the text you want to extract from as plain text.
+
+Usage
+-----
+./extract-proper-nouns source.txt > nouns.txt
+
+To sort them and eliminate duplicates:
+./extract-proper-nouns source.txt | sort | uniq > nouns.txt
