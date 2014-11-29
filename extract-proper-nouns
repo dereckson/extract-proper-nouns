@@ -43,7 +43,7 @@ for sentence in sent_detector.tokenize(text):
     start = True
     currentCandidate = []
 
-    for word,pos in taggedSentence:
+    for word, pos in taggedSentence:
         if start:
             start = False
             continue
