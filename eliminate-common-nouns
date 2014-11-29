@@ -18,7 +18,7 @@ if not os.path.exists(filename):
     sys.exit(2)
 
 #
-# Discard English words
+# Discards English words
 #
 
 with open ("wordsEn.txt", "r") as file:
