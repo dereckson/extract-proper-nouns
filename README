@@ -12,9 +12,19 @@ Source text
 -----------
 You need a copy of the text you want to extract from as plain text.
 
+Source English word list
+------------------------
+The expected format is a list in lowercase, each line a substantive word.
+Filename should be wordsEn.txt or modified in eliminate-common-nouns script.
+
+Such file is available at http://www-01.sil.org/linguistics/wordlists/english/
+
 Usage
 -----
 ./extract-proper-nouns source.txt > nouns.txt
 
 To sort them and eliminate duplicates:
 ./extract-proper-nouns source.txt | sort | uniq > nouns.txt
+
+To discard known English words:
+./eliminate-common-nouns nouns.txt
