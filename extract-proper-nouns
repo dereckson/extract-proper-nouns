@@ -6,7 +6,7 @@ import os.path
 import nltk
 from nltk.tag import pos_tag
 from nltk.tokenize import word_tokenize
-from nltk.tokenize.punkt import PunktWordTokenizer
+from nltk.tokenize.treebank import TreebankWordTokenizer
 
 #
 # Parses arguments
