@@ -19,7 +19,7 @@ Source English word list
 The expected format is a list in lowercase, each line a substantive word.
 Filename should be wordsEn.txt or modified in eliminate-common-nouns script.
 
-Such file is available at http://www-01.sil.org/linguistics/wordlists/english/
+Such file was available at [SIL](http://web.archive.org/web/20141122213941/http://www-01.sil.org/linguistics/wordlists/english/).
 
 Usage
 -----
